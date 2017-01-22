@@ -1,0 +1,9 @@
+AppBundle\Entity\ProductTranslation:
+    type: entity
+    table: sylius_product_translation
+    fields:
+        sizeAdvice:
+            name: size_advice
+            type: string
+            nullable: true
+

@@ -1,3 +1,12 @@
+sylius_product:
+    resources:
+        product:
+            classes:
+                model: AppBundle\Entity\Product
+            translation:
+                classes:
+                    model: AppBundle\Entity\ProductTranslation
+
 sylius_addressing:
     resources:
         country:
